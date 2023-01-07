@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+    
+    <head>
+        <title> recette </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- je change la couleur de l'arriére plan du "body" directement dans "head"
+        (<style>  
+        body{background-color: #8ba1bb;)
+        je change aussi la police d'écriture du body en "arial"
+        (font-family: Arial;)
+    
+        je change aussi la couleur des paragraphe "p{choix couleur}"
+        je me sert de la class du paragraphe que je veut modifier pour le cibler 
+        je peut aussi lui donner un id a la place de la class-->
+        <link rel="stylesheet" href="recette.css">
+    </head>
+
+    <body>
+        
+        <div class="total">
+            <div class="center categorie" >
+                <p class="categorie">Recette</p>
+            </div>
+            <!-- je donne une class a mon paragraphe pour le personaliser 
+                je peut aussi donner un "id" a mon paragraphe pour pouvoir le personaliser-->
+            <h1>recette du gateau au chocolat </h1>
+            <div class="separateur">
+
+            </div>
+            <div class="center">
+                <p class="info">"Cette recette du gateau au chocolat est un grand classic. Elle fera plaisir au gourmand."</p>
+            </div>
+        <div class="info">
+            <img class="center info" src="https://jonathanroux.com/gateau.jpg?id=9998">
+
+            <table class="info">
+                <tr>
+                    <th>dificulté</th>                    
+                    <th>préparation</th>
+                    <th>cuisson</th>
+                    <th>temps total</th>
+                </tr>
+                <tr>
+                    <td>facile</td>
+                    <td>10 min</td>
+                    <td>25 min</td>
+                    <td>35 min</td>
+                </tr>
+            </table>
+        </div>
+<!-- les table
+    tr: table row (ligne)
+    th: table header (titre)
+    td: table data (donnée, cellule) -->
+        <div>
+            <div class="collone1 collone">
+                <h2>Ingredient</h2>
+                    <p>choclat noir : 200g</p>
+                    <p>sucre : 150g</p>
+                    <p>beurre : 200g</p>
+                    <p>farine : 80g</p>
+            </div>
+            <div class="collone2 collone">
+                <h2>Preparation</h2>
+                <table class="preparation">
+                    <tr><td><p class="numero">1</p></td>
+                        <td class="instruction">faire fondre le chocolat avec le beurre</td></tr>
+                    <tr><td><p class="numero">2</p></td>
+                        <td class="instruction">melanger le sucre, la farine et les oeufs</td></tr>
+                    <tr><td><p class="numero">3</p></td>
+                        <td class="instruction">melanger le tous pour faire une pate</td></tr>
+                    <tr><td><p class="numero">4</p></td>
+                        <td class="instruction">mettre au four</td></tr>
+                </table>
+            </div>
+            </div>
+        </div>
+    </body>
+</html>
